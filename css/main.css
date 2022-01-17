@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* styles header */
+#header a img{
+    height: 75px;
+    width: 115px;
+    margin-top: 9px;
+    margin-left: 55px;
+}
+#header a {
+    display: block;
+}
