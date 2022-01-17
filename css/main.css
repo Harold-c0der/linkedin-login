@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* styles header */
@@ -12,4 +13,25 @@
 }
 #header a {
     display: block;
+}
+
+/* styles body  */
+
+#card-layout{
+    margin: 0 auto;
+    height: 416px;
+    width: 420px;
+    border-radius:  5px ;
+    box-sizing: border-box;
+    padding: 0 35px;
+    
+}
+#card-layout form h2{
+    font-size: 2rem;
+    font-weight:500;
+    letter-spacing: 2px;
+}
+#card-layout form small{
+    color: rgb(102, 102, 102);
+    font-weight:lighter;
 }
