@@ -78,7 +78,7 @@
     color: rgb(104, 104, 104);
 }
 #card-layout form .apple:hover{  
-    outline: 3px solid rgb(94, 94, 94);
+    outline: 3 px solid rgb(94, 94, 94);
 }
 #card-layout form .button-container{  
     margin-top: 27px;
