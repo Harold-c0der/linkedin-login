@@ -19,7 +19,7 @@
 
 #card-layout{
     margin: 0 auto;
-    height: 416px;
+    height: 460px;
     width: 420px;
     border-radius:  5px ;
     box-sizing: border-box;
@@ -29,7 +29,6 @@
 #card-layout form h2{
     font-size: 2rem;
     font-weight:500;
-    letter-spacing: 2px;
 }
 #card-layout form small{
     color: rgb(102, 102, 102);
@@ -39,16 +38,86 @@
 /* styles input  */
 
 #card-layout form input{  
-    width: 350px;
+    width: 95%;
     height: 30px;
     border: none;
     outline: 1px solid rgb(80, 80, 80);
     border-radius: 5px;
     padding: 10px;
-    margin: 13px;
-    margin-left: 0px;
+    margin: 13px auto;
     font-size: 17px;
     font-weight: lighter;
+}
+#card-layout form a{  
+    color: #0a66c2;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px ;
+}
+#card-layout form button{
+    border: none;  
+    border-radius: 50px;
+    width: 97%;
+    padding: 14px 0;
+    background-color: #0a66c2;
+    color: white;
+    font-size: 15.5px;
+}
+
+#card-layout form .apple{  
+    outline: 1px solid black;
+    background-color: white;
+    color: rgb(104, 104, 104);
+}
+#card-layout form .button-container{  
+    margin-top: 27px;
+}
+
+/* styles line button */
+#card-layout form .sep{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+#card-layout form .sep span{  
+    margin: 0 5px;
+    color: gray;
+    font-size: 12px;
+}
+#card-layout form .sep .line{  
+    width: 160px;
+    height: 1px;
+    background-color:  rgb(221, 221, 221);
+}
+
+/* styles footer */
+
+#app-container footer{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#app-container footer p{
+    font-weight: lighter;
+    font-size: 15px;
+    font-weight: 300;
+}
+#app-container footer a{
+    color: #0a66c2;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 7px;
+}
+
+@media (min-width:770px) {
+    #card-layout{
+        box-shadow: 0px 0px 10px rgb(206, 203, 203);
+        padding: 24px;
+        width: 350px;
+        
+    }
 }
 
 
